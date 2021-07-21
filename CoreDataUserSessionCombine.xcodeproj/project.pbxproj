@@ -14,6 +14,17 @@
 		3F87A5E526A724B50039833F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87A5E426A724B50039833F /* Assets.xcassets */; };
 		3F87A5E826A724B50039833F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87A5E726A724B50039833F /* Preview Assets.xcassets */; };
 		3F87A5EB26A724B50039833F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87A5E926A724B50039833F /* LaunchScreen.storyboard */; };
+		3F87A5F326A7268C0039833F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5F226A7268C0039833F /* ContentViewModel.swift */; };
+		3F87A5F526A726A10039833F /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5F426A726A10039833F /* UserSession.swift */; };
+		3F87A5F726A726DB0039833F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5F626A726DB0039833F /* CoreDataManager.swift */; };
+		3F87A5F926A739140039833F /* ContentViewRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5F826A739140039833F /* ContentViewRoute.swift */; };
+		3F87A5FE26A73AB10039833F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5FD26A73AB10039833F /* LaunchView.swift */; };
+		3F87A60026A73AC40039833F /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A5FF26A73AC40039833F /* LaunchViewModel.swift */; };
+		3F87A60226A73ADE0039833F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A60126A73ADE0039833F /* OnboardingView.swift */; };
+		3F87A60426A73AF00039833F /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A60326A73AF00039833F /* OnboardingViewModel.swift */; };
+		3F87A60626A73B180039833F /* SignedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A60526A73B180039833F /* SignedInView.swift */; };
+		3F87A60826A73B330039833F /* SignedInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A60726A73B330039833F /* SignedInViewModel.swift */; };
+		3F87A60A26A745070039833F /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87A60926A745070039833F /* AppDependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		3F87A5E726A724B50039833F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F87A5EA26A724B50039833F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F87A5EC26A724B50039833F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F87A5F226A7268C0039833F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		3F87A5F426A726A10039833F /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		3F87A5F626A726DB0039833F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3F87A5F826A739140039833F /* ContentViewRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRoute.swift; sourceTree = "<group>"; };
+		3F87A5FD26A73AB10039833F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		3F87A5FF26A73AC40039833F /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		3F87A60126A73ADE0039833F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3F87A60326A73AF00039833F /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		3F87A60526A73B180039833F /* SignedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInView.swift; sourceTree = "<group>"; };
+		3F87A60726A73B330039833F /* SignedInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInViewModel.swift; sourceTree = "<group>"; };
+		3F87A60926A745070039833F /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +82,12 @@
 			children = (
 				3F87A5DB26A724B10039833F /* AppDelegate.swift */,
 				3F87A5DD26A724B10039833F /* SceneDelegate.swift */,
-				3F87A5DF26A724B10039833F /* ContentView.swift */,
+				3F87A60926A745070039833F /* AppDependencyContainer.swift */,
+				3F87A60E26A78DB40039833F /* Data Management */,
+				3F87A60D26A78D670039833F /* Main Screen */,
+				3F87A5FA26A73A600039833F /* Launch Screen */,
+				3F87A5FB26A73A6B0039833F /* Onboarding Screen */,
+				3F87A5FC26A73A830039833F /* SignedIn Screen */,
 				3F87A5E426A724B50039833F /* Assets.xcassets */,
 				3F87A5E926A724B50039833F /* LaunchScreen.storyboard */,
 				3F87A5EC26A724B50039833F /* Info.plist */,
@@ -76,6 +103,52 @@
 				3F87A5E726A724B50039833F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F87A5FA26A73A600039833F /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3F87A5FD26A73AB10039833F /* LaunchView.swift */,
+				3F87A5FF26A73AC40039833F /* LaunchViewModel.swift */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		3F87A5FB26A73A6B0039833F /* Onboarding Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3F87A60126A73ADE0039833F /* OnboardingView.swift */,
+				3F87A60326A73AF00039833F /* OnboardingViewModel.swift */,
+			);
+			path = "Onboarding Screen";
+			sourceTree = "<group>";
+		};
+		3F87A5FC26A73A830039833F /* SignedIn Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3F87A60526A73B180039833F /* SignedInView.swift */,
+				3F87A60726A73B330039833F /* SignedInViewModel.swift */,
+			);
+			path = "SignedIn Screen";
+			sourceTree = "<group>";
+		};
+		3F87A60D26A78D670039833F /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3F87A5DF26A724B10039833F /* ContentView.swift */,
+				3F87A5F226A7268C0039833F /* ContentViewModel.swift */,
+				3F87A5F826A739140039833F /* ContentViewRoute.swift */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		3F87A60E26A78DB40039833F /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				3F87A5F426A726A10039833F /* UserSession.swift */,
+				3F87A5F626A726DB0039833F /* CoreDataManager.swift */,
+			);
+			path = "Data Management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +224,18 @@
 				3F87A5DC26A724B10039833F /* AppDelegate.swift in Sources */,
 				3F87A5DE26A724B10039833F /* SceneDelegate.swift in Sources */,
 				3F87A5E326A724B10039833F /* CoreDataUserSessionCombine.xcdatamodeld in Sources */,
+				3F87A60026A73AC40039833F /* LaunchViewModel.swift in Sources */,
+				3F87A60626A73B180039833F /* SignedInView.swift in Sources */,
+				3F87A5F526A726A10039833F /* UserSession.swift in Sources */,
 				3F87A5E026A724B10039833F /* ContentView.swift in Sources */,
+				3F87A60A26A745070039833F /* AppDependencyContainer.swift in Sources */,
+				3F87A5F726A726DB0039833F /* CoreDataManager.swift in Sources */,
+				3F87A60426A73AF00039833F /* OnboardingViewModel.swift in Sources */,
+				3F87A60826A73B330039833F /* SignedInViewModel.swift in Sources */,
+				3F87A5F926A739140039833F /* ContentViewRoute.swift in Sources */,
+				3F87A5FE26A73AB10039833F /* LaunchView.swift in Sources */,
+				3F87A5F326A7268C0039833F /* ContentViewModel.swift in Sources */,
+				3F87A60226A73ADE0039833F /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
